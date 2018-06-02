@@ -37,6 +37,26 @@ canvas.drawShapesWithBorders = false
 // Thick lines
 canvas.defaultLineWidth = 5
 
+// Black background
+canvas.fillColor = Color.black
+canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 300)
+
+// Green
+canvas.fillColor = Color.init(hue: 120, saturation: 100, brightness: 100, alpha: 80)
+canvas.drawEllipse(centreX: 75, centreY: 175, width: 100, height: 100, borderWidth: 0)
+
+// Yellow
+canvas.fillColor = Color.init(hue: 60, saturation: 100, brightness: 100, alpha: 80)
+canvas.drawEllipse(centreX: 125, centreY: 175, width: 100, height: 100, borderWidth: 0)
+
+// Red
+canvas.fillColor = Color.init(hue: 0, saturation: 100, brightness: 100, alpha: 80)
+canvas.drawEllipse(centreX: 175, centreY: 175, width: 100, height: 100, borderWidth: 0)
+
+// Blue
+canvas.fillColor = Color.init(hue: 240, saturation: 100, brightness: 100, alpha: 80)
+canvas.drawEllipse(centreX: 225, centreY: 175, width: 100, height: 100, borderWidth: 0)
+
 // Add your code below... remember to use comments to indicate your intent
 /*:
  ## Template code
